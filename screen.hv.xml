@@ -1,0 +1,29 @@
+<doc xmlns="https://hyperview.org/hyperview">
+  <screen id="main">
+    <styles>
+      <style
+        id="Button"
+        backgroundColor="#EEE"
+        padding="24"
+      >
+        <modifier pressed="true">
+          <style backgroundColor="#AAA" />
+        </modifier>
+      </style>
+
+      <style
+        id="Button__Label"
+        color="#000"
+      >
+        <modifier pressed="true">
+          <style color="red" />
+        </modifier>
+      </style>
+    </styles>
+    <body>
+      <view style="Button">
+        <text style="Button__Label">Press me</text>
+      </view>
+    </body>
+  </screen>
+</doc>
